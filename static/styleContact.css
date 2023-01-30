@@ -1,0 +1,30 @@
+h2{
+    text-align: center;
+    margin: 12px 0;
+}
+h2{
+    font-family: 'dm mono';
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myinput{
+    width:561px;
+    padding: 9px;
+    margin: 10px;
+    border-radius: 9px;
+    border: 2px solid #8a0b76;
+    box-shadow: 2px 3px 4px #ec67fc;
+}
+.btn{
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 9px;
+    border: 2px solid #d800e4;
+    cursor: pointer;
+    background-color: #f7c0ff;
+    box-shadow: 2px 2px 2px #f414ff;
+}

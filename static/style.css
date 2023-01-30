@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-boxs;
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    font-family: dm mono;
+}
+#navbar li{
+    list-style-type: none;
+    padding: 20px;
+    margin: auto;
+}
+#navbar ul{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#navbar img{
+    height: 37px;
+    width: 15px;
+    filter: invert(1);
+}
+#navbar a:hover{
+    color:#ff00e6;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #72336c;
+    padding: 10px 15px;
+    color: #ff00e6;
+    font-family: comic sans ms;
+    position: static;
+}
+#intro{
+    height: 60vh;
+    background-color: black;
+    background-image: url(https://img.freepik.com/free-photo/young-sportive-man-daancing-breakdance-isolared-black-backgrounf-neon-with-mixed-lights_155003-45629.jpg?w=996&t=st=1673856945~exp=1673857545~hmac=03c6f34…);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-y: center;
+    background-position-x: center;
+    /* text */
+    color: #ff00e6;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'dm mono';
+}
+#sponsors img{
+    width: 20vw;
+}
+#sponsors{
+    color: #ef67e1;
+    display: flex;
+    background-color: #72336c;
+    font-family: comic sans ms;
+}
+#sponsors{
+    height: 20vh;
+
+}
+#footer{
+    height: 10vh;
+    background-color: #f4a3eb;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    width: 100vw;
+    bottom: 0px;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+
+}
+#footer a:hover{
+    color:#72336c;
+}

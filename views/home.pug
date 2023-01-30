@@ -1,0 +1,18 @@
+extends base.pug
+block scripts
+    script(src='../static/index.js')
+block style 
+    style
+        include ../static/style.css
+block content
+        section#intro 
+            div 
+                h2 The Dance academy 
+            div#sp 
+                h3 Let's Dance
+        section#sponsors 
+            | sponsored by
+            img(src="../static/logo1.png")
+        script
+            include ../static/index.js
+

@@ -1,0 +1,21 @@
+doctype doctype html
+html
+  head
+    link(rel="icon" href="../static/mainlogo.png"  type="image/png")
+    title The dance academy
+    block scripts
+    block style
+  body
+    nav#navbar
+        img(src="../static/mainlogo.png")
+        | THE DANCE ACADEMY
+        ul
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact]
+    block content
+    footer#footer 
+        | contact us on #[a(href="xyz@gmail.com")  Email]
+        | Copyright © 2023 TheDanceAcademy.com
